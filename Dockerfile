@@ -1,6 +1,4 @@
-FROM frekele/java:jdk8
-
-MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
+FROM openjdk:7u131-jdk
 
 ENV ANT_VERSION=1.10.3
 ENV ANT_HOME=/opt/ant
